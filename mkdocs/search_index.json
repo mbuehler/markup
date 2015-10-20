@@ -1,0 +1,24 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Markbook Documentation\n\n\nUsing this site for notes on localhost development.\n\n\nmkdocs command list\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nSample Code Block\n\n\n!DOCTYPE html\n\n\nhtml\n\n\nhead\n\n\nscript src=\nhttps://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js\n/script\n\n\nscript\n\n$(document).ready(function(){\n    $(\nbutton\n).click(function(){\n        $(\n#div1\n).fadeToggle();\n        $(\n#div2\n).fadeToggle(\nslow\n);\n        $(\n#div3\n).fadeToggle(3000);\n    });\n});\n\n/script\n\n\n/head\n\n\nbody\n\n\n\np\nDemonstrate fadeToggle() with different speed parameters.\n/p\n\n\n\nbutton\nClick to fade in/out boxes\n/button\nbr\nbr\n\n\n\ndiv id=\ndiv1\n style=\nwidth:80px;height:80px;background-color:red;\n/div\n\n\nbr\n\n\ndiv id=\ndiv2\n style=\nwidth:80px;height:80px;background-color:green;\n/div\n\n\nbr\n\n\ndiv id=\ndiv3\n style=\nwidth:80px;height:80px;background-color:blue;\n/div\n\n\n\n/body\n\n\n/html", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#markbook-documentation", 
+            "text": "Using this site for notes on localhost development.", 
+            "title": "Markbook Documentation"
+        }, 
+        {
+            "location": "/#mkdocs-command-list", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "mkdocs command list"
+        }, 
+        {
+            "location": "/#sample-code-block", 
+            "text": "!DOCTYPE html  html  head  script src= https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js /script  script \n$(document).ready(function(){\n    $( button ).click(function(){\n        $( #div1 ).fadeToggle();\n        $( #div2 ).fadeToggle( slow );\n        $( #div3 ).fadeToggle(3000);\n    });\n}); /script  /head  body  p Demonstrate fadeToggle() with different speed parameters. /p  button Click to fade in/out boxes /button br br  div id= div1  style= width:80px;height:80px;background-color:red; /div  br  div id= div2  style= width:80px;height:80px;background-color:green; /div  br  div id= div3  style= width:80px;height:80px;background-color:blue; /div  /body  /html", 
+            "title": "Sample Code Block"
+        }
+    ]
+}
